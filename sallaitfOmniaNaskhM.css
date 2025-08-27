@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "OmniaNaskh";
+  font-style: normal;
+  font-weight: 400; /* ممكن تخليه 500 إذا تبغى medium بالضبط */
+  src: url("itfOmniaNaskh-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "OmniaNaskh", cursive;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 400; /* الكل نفس الوزن */
+}
